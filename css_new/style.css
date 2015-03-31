@@ -1,0 +1,447 @@
+/* CSS Document */
+
+@font-face {
+ font-family: 'HelveticaNeueLTStd37ThinConde';
+ src: url('../fonts/helveticaneueltstd-thcn-webfont.eot');
+ src: local('☺'), url('../fonts/helveticaneueltstd-thcn-webfont.woff') format('woff'), url('../fonts/helveticaneueltstd-thcn-webfont.ttf') format('truetype'), url('../fonts/helveticaneueltstd-thcn-webfont.svg#webfontJfvYchYF') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+* {
+	margin:0;
+	padding:0;
+	color:#616161;
+	font-family:'HelveticaNeueLTStd37ThinConde', "Trebuchet MS";
+	font-size:12px;
+	outline:none;
+	letter-spacing:1px;
+}
+:focus {
+  outline-color: transparent;
+  outline-style: none;
+}
+a {
+	outline:0;
+	cursor:pointer;
+	color:#666;
+	text-decoration:none;
+}
+ul {
+	list-style:none;
+}
+img {
+	border:none;
+}
+body {
+	background:#000;
+}
+#main {
+	width:auto;
+	height:auto;
+	position:relative;
+}
+/****************/
+/****************/
+#header {
+	width:100%;
+	min-width:1166px;
+	height:65px;
+	padding:30px 0px 20px 0px;
+	position:relative;
+	background-color:#000;
+}
+#header_content {
+	width:1146px;
+	height:65px;
+	position:fixed;
+	padding-left:20px;
+	clear:both;
+	overflow:hidden;
+}
+/******/
+#logo {
+	position:relative;
+	float:left;
+	width:141px;
+	height:20px;
+}
+#logo H1 A {
+	text-indent:-200000em;
+	float:left;
+	background-repeat:no-repeat;
+	OVERFLOW:hidden;
+	width:141px;
+	height:20px;
+	background-image: url(../img/logo.png);
+	overflow:hidden;
+}
+/******/
+#instituto_e{
+	position:relative;
+	float:right;
+	width:18px;
+	height:21px;
+	/*margin-left:980px;*/
+}
+#instituto_e A{
+	display:block;
+	text-indent:-200000em;
+	font-size:0px;
+	width:18px;
+	height:21px;
+	background-image: url(../img/instituto-e.png);
+	overflow:hidden;
+}
+/******/
+#aspen{
+	position:relative;
+	float:right;
+	width:145px;
+	height:21px;
+  	margin:0 20px 0 0;
+}
+#aspen A{
+	display:block;
+	text-indent:-200000em;
+	font-size:0px;
+	width:145px;
+	height:21px;
+	background-image: url(../img/logo_aspen.jpg);
+	overflow:hidden;
+}
+/******/
+#menu {
+	position:relative;
+	float:left;
+	width:100%;
+	height:auto;
+	margin-top:0px;
+	margin-left:-10px;
+	padding-top:20px;
+	overflow:hidden;
+}
+#menu UL{
+	overflow:hidden;
+}
+#menu LI {
+	display:inline;
+	float:left;
+  	margin:10px; /* 0 10px 10px; */
+}
+#menu LI A{
+	color:#8c8c8c;
+	text-transform:uppercase;
+	font-size:13px;	
+}
+#menu LI A:hover{
+	color:#B0B0B0;
+}
+#menu .cat-store{
+	border-left:1px solid #666;
+	margin:10px 0; /* 10px 10px; */
+	padding:0 0 0 10px;
+}
+#menu .cat-store span{
+	font-size:13px;
+	color:#FFF;
+}
+/****************/
+/****************/
+#content {
+	width:auto;
+	min-width:1156px;
+	height:450px;
+	position:relative;
+	float:left;
+	margin-left:10px;
+	overflow:hidden;
+}
+#content_its {
+	width:auto;
+	height:450px;
+	position:relative;
+	float:left;
+	margin:0px 10px;
+	display:none;
+}
+#content_its.it_t_620 {
+	width:620px;
+}
+#content_its.it_t_565 {
+	width:565px;
+}
+#content_its.it_t_300 {
+	width:300px;
+}
+#content_its.it_t_263 {
+	width:263px;
+}
+#content_its.it_t_233 {
+	width:233px;
+}
+#content_its_sld{
+	width:100%;
+	height:350px;
+	position:relative;
+	float:left;
+}
+#content_its_sld_tx{
+	width:505px;
+	height:290px;
+	position:relative;
+	float:left;
+	padding:30px;
+}
+#content_its_sld_tx.pd_15p{
+	padding:15px;
+}
+#content_its_sld_tx.it_tx_263 {
+	width:233px;
+	height:320px;
+}
+#content_its_sld_tx.bk_gray {
+	background-color:#191919;
+}
+#content_its_sld_tx.menor {
+	width:300px;
+	background-color:#191919;
+}
+#content_its_sld_tx P{
+	font-size:18px;
+	margin-bottom:10px;
+}
+#content_its_sld_tx P.tx_mn{
+	font-size:16px;
+}
+/**/
+.releaseBox h1 {
+	font-size: 30px;
+	font-weight: normal;
+}
+/**/
+#content_its_txt{
+	width:100%;
+	height:90px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	overflow:hidden;
+}
+#content_its_txt H2{
+	color:#626262;
+	size:12px;
+	text-transform:uppercase;
+	font-weight:normal;
+}
+#content_its_txt P{
+	color:#626262;
+	size:8px;
+}
+/*****************/
+/* CONTATO */
+.formmenu {
+	width: 300px;
+	height: 360px;
+	float: left;
+}
+.formmenu A{
+	display:block;
+}
+.formmenu li{
+	width:260px;
+	height:45px;
+	padding:22px 20px 23px;
+	background-color:#333;
+	position:relative;
+	cursor:pointer;
+}
+.formmenu li.active{
+	background-color:#484848;
+}
+.formmenu li.clicked{
+	background-color:#484848;
+}
+#clickarrow{
+	display:block;
+	background:url(../img/grayarrow.png);
+	width:8px;
+	height:14px;
+	position:absolute;
+	right:-7px;
+	top:38px;
+	margin-bottom:30px;
+}
+#arrow{
+	display:block;
+	background:url(../img/grayarrow.png);
+	width:8px;
+	height:14px;
+	position:absolute;
+	right:-7px;
+	top:38px;
+	margin-bottom:30px;
+}
+.formmenu li h4{
+	text-transform:lowercase;
+	font-size:25px;
+	font-weight:normal;
+	color:#ccc;
+}
+.formmenu li p{
+	text-transform:lowercase;
+	font-size:14px;
+	font-weight:normal;
+	color:#616161;
+}
+/****************/
+/****************/
+#footer {
+	width:960px;
+	height:73px;
+	position:relative;
+	float:left;
+}
+#footer_menu {
+	width:940px;
+	height:43px;
+	position:fixed;
+	float:left;
+	padding-left:20px;
+}
+#footer_menu UL {
+	display:inline;
+}
+#footer_menu LI {
+	width:26px;
+	height:41px;
+	float:left;
+	margin-right:5px;
+}
+#footer_menu LI A{
+	display:block;
+	text-indent:-200000em;
+	font-size:0px;
+	width:26px;
+	height:41px;
+	overflow:hidden;
+	background-repeat:no-repeat;
+}
+#footer_menu LI A.lk_facebook{
+	background-image:url(../img/facebook.jpg);
+}
+#footer_menu LI A.lk_instagram{
+	background-image:url(../img/instagram.jpg);
+}
+#footer_menu LI A.lk_twitter{
+	background-image:url(../img/twitter.jpg);
+}
+#footer_menu LI.lk_lang{
+	width:20px;
+	height:40px;
+	margin-left:5px;
+}
+#footer_menu LI.lk_langpt{
+	width:20px;
+	height:40px;
+	margin-left:5px;
+}
+#footer_menu LI.lk_langjp{
+	width:20px;
+	height:40px;
+	margin-left:5px;
+}
+#footer_menu LI.lk_lang A{
+	background-image:url(../img/langen.jpg);
+}
+#footer_menu LI.lk_langpt A{
+	background-image:url(../img/langpt.jpg);
+}
+#footer_menu LI.lk_langjp A{
+	background-image:url(../img/langjp.jpg);
+}
+/********************/
+/********************/
+.lojas_it ul#tipo {
+	width: 165px;
+	background-color: rgb(25, 25, 25);
+	height: 340px;
+	float: left;
+	padding: 5px 10px;
+}
+.lojas_it ul {
+	background-color: rgb(25, 25, 25);
+	padding: 5px 10px;
+	height: 340px;
+	float: left;
+}
+.lojas_it LI {
+	text-transform:uppercase;
+	font-size:12px;
+}
+.lojas_it LI A {
+	display:block;
+}
+.lojas_it LI A:hover {
+	color:#FFF;
+}
+.hentry {
+	width: auto;
+}
+.lojas_it h4 {
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 13px;
+	float: left;
+	height: 20px;
+	width:470px;
+}
+#map, .map{
+	width:470px;
+	height:280px;
+	color:#000;
+	margin-bottom:15px;
+}
+.map .gmap_marker, .map .gmnoprint{
+	color:#000;
+}
+.fimloja {
+	width: 470px;
+	background-color: rgb(25, 25, 25);
+	height: 340px;
+	float: left;
+	margin-left: 0px;
+}
+
+
+<!-- Formulario Contato JP -->
+
+.textfield-ddd{
+	width:20px;
+}
+
+.formulario{
+	height:auto;
+	color:#CCC;
+	font-family:'HelveticaNeueLTStd37ThinConde', "Trebuchet MS";
+	font-size:13px;
+	outline:none;
+	letter-spacing:1px;
+}
+
+
+.formulario-texto{
+	color:#CCC;
+	font-family:'HelveticaNeueLTStd37ThinConde', "Trebuchet MS";
+	font-size:13px;
+	outline:none;
+	letter-spacing:1px;
+}
+
+
+
+
+
+
+
+
+

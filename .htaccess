@@ -1,0 +1,26 @@
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+DirectoryIndex   index.php index.html index.htm default.htm index.php3 index.phtml index.php5 index.shtml mwindex.phtml
+
+RewriteRule ^football/?$ football.php [NC,L]
+RewriteRule ^5521rio/?$ 5521rio.php [NC,L]
+RewriteRule ^intothemountains/?$ intothemountains.php [NC,L]
+RewriteRule ^intothemountains-en/?$ intothemountains_en.php [NC,L]
+
+RewriteRule ^home/?$ site.php [NC,L]
+RewriteRule ^contato/?$ contato.php [NC,L]
+RewriteRule ^press/?$ press.php [NC,L]
+RewriteRule ^lojas/?$ lojas.php [NC,L]
+RewriteRule ^oskar/?$ oskarmetsavaht.php [NC,L]
+RewriteRule ^oskar-profile/?$ oskarmetsavahtprofile.php [NC,L]
+
+RewriteRule ^contact/?$ contato_en.php [NC,L]
+RewriteRule ^press-en/?$ press_en.php [NC,L]
+RewriteRule ^stores/?$ lojas_en.php [NC,L]
+RewriteRule ^oskar-en/?$ oskarmetsavaht_en.php [NC,L]
+RewriteRule ^oskar-en-profile/?$ oskarmetsavahtprofile_en.php [NC,L]
+
+</IfModule>
+
