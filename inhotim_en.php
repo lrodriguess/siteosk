@@ -53,6 +53,7 @@ $(document).ready(function(){
 
 <?php /* INHOTIM */ ?>
 
+<?php $videocod = "122466138"; $videotit = "Artfilm OsklenInhotim"; include "video.php"; ?>
 <?php $videocod = "106856343"; $videotit = "oskleninhotim s/s 15 NYFW"; include "video.php"; ?>  
 <?php $videocod = "104669776"; $videotit = "making of oskleninhotim s/s 15"; include "video.php"; ?>   
 

@@ -49,7 +49,8 @@ $paginaAtual = 'OSKAR METSAVAHT';
     </div>
     <!-- -->
     <!-- -->
-    
+
+<?php $videocod = "122466138"; $videotit = "Artfilm OsklenInhotim"; include "video.php"; ?>        
 <?php $videocod = "105293476"; $videotit = "Interfaces - an art screening exhibited on Made by feito por brasileiros - Cidade Matarazzo-SP"; include "video.php"; ?>
 <?php $videocod = "75889863"; $videotit = "Osklen in California"; include "video.php"; ?>
 <?php $videocod = "54972894"; $videotit = "The Creators Project"; include "video.php"; ?>

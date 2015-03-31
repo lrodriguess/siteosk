@@ -1,6 +1,6 @@
 <?php $lang = "jp"; ?>
 <?php
-$paginaAtual = 'OSKAR METSAVAHT';
+$paginaAtual = 'Coleções';
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -39,34 +39,16 @@ $paginaAtual = 'OSKAR METSAVAHT';
 <div id="main">
   <?php include "header_menu.php"; ?>
   <div id="content">
-    <!-- -->
-        <div id="content_its" class="it_cont it_t_263">
-      <div id="content_its_sld"><a href="oskarmetsavahtprofile_jp.php"><img src="uploads/oskar/perfil.jpg" width="263" height="350" /></a></div>
-      <div id="content_its_txt">
-        <h2><a href="oskarmetsavahtprofile_jp.php">Oskar Metsavaht Profile</a></h2>
-        [ click to read the full profile ]
-      </div>
-    </div>
     
-    
-<?php $videocod = "122466138"; $videotit = "Artfilm OsklenInhotim"; include "video.php"; ?>    
-<?php $videocod = "105293476"; $videotit = "Interfaces - an art screening exhibited on Made by feito por brasileiros - Cidade Matarazzo-SP"; include "video.php"; ?>
-<?php $videocod = "75889863"; $videotit = "Osklen in California"; include "video.php"; ?>
-<?php $videocod = "54972894"; $videotit = "The Creators Project"; include "video.php"; ?>
-<?php $videocod = "54972136"; $videotit = "Manisfesto A21"; include "video.php"; ?>
-<?php $videocod = "54969857"; $videotit = "Absolut Rio"; include "video.php"; ?>
-<?php $videocod = "54971173"; $videotit = "Making of Absolut Rio"; include "video.php"; ?>
-<?php $videocod = "54967249"; $videotit = "Making of Editorial Elle"; include "video.php"; ?>
-<?php $videocod = "46437287"; $videotit = "Ipanema by Oskar Metsavaht"; include "video.php"; ?>
+<?php //  $titulocolecao = "F/W 15"; $tagcolecao = "fw15"; include "colecoes_code.php"; ?>
+<?php  $titulocolecao = "OSKLENINHOTIM S/S 15"; $tagcolecao = "inhotim"; include "colecoes_code.php"; ?>
+<?php  $titulocolecao = "FOOTBALL SERIES F/W 14"; $tagcolecao = "football"; include "colecoes_code.php"; ?>
+<?php  $titulocolecao = "RIO+5521 S/S 14"; $tagcolecao = "5521rio"; include "colecoes_code.php"; ?>
+<?php  $titulocolecao = "INTO THE MOUNTAINS F/W 13"; $tagcolecao = "intothemountains"; include "colecoes_code.php"; ?>
 
-<?php $videocod = "7795667"; $videotit = "Short Film Samba"; include "video.php"; ?>
 
-<?php $videocod = "37962358"; $videotit = "Surfing the City"; include "video.php"; ?>
-<?php $videocod = "37394291"; $videotit = "Surfing the Mountains - Himalaya"; include "video.php"; ?>
-<?php $videocod = "37390554"; $videotit = "Surfing the Mountains - Alaska"; include "video.php"; ?>
-<?php $videocod = "37387464"; $videotit = "Surfing the Mountains - Pucón Andes"; include "video.php"; ?>
 
-    <!-- -->
+
     <div style="clear:both;"></div>
   </div>
   <?php include "footer.php"; ?>
