@@ -21,7 +21,7 @@ $paginaAtual = 'Coleções';
 <script type="text/javascript" src="js/classic/galleria.classic.js"></script>
 <script type="text/javascript" src="js/inicio.js"></script>
 </head>
-
+<!-- teste github -->
 <body>
 <script type="text/javascript">
 
