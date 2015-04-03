@@ -40,7 +40,7 @@
 		  <?php } elseif ($lang == "jp") { ?>
           	  <li><a href="/inhotim_jp.php" title="Inhotim">Inhotim</a></li>
               <li><a href="http://www.hpfrance.com/Blog/osklen/" target="_blank" title="Blog">ブログ</a></li>
-               <li><a href="/colecoes_jp.php" title="previous collections">previous collections</a></li>
+               <li><a href="/colecoes_jp.php" title="previous collections">前回のコレクション</a></li>
                <!--
  	          <li><a href="/football_jp.php" title="football series">Football Series</a></li>
  	      	  <li><a href="/5521rio_jp.php" title="5521 Rio">+5521 RIO</a></li>
