@@ -136,6 +136,7 @@ function abremulti() {
           FEIRA DE SANTANA - ARANÃS<br>
           FEIRA DE SANTANA - NOMAD<br>
           GUANAMBI - ATRATIVA<br>
+          ILHÓIS MEN´S WEAR - ILHÉUS<br />
           IPIRA - CASA SAO FRANCISCO<br>
           ITABUNA - LOOK MULTIMARCAS<br>
           JACOBINA - MODERN HOUSE<br>
