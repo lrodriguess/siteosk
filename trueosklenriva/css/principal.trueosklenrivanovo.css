@@ -1,0 +1,1124 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin:0;
+	padding:0;
+}
+a {
+	outline:0;
+	color:inherit;
+}
+a:link {
+	text-decoration:none;
+}
+a:visited {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:none;
+}
+a:active {
+	text-decoration:none;
+}
+
+:focus {
+	outline-color: transparent;
+	outline-style: none;
+}
+IMG {
+	border:none;
+}
+BODY {
+	width:100%;
+	height:100%;
+	background-color:#000;
+}
+HTML {
+	height:100%;
+	 -webkit-text-size-adjust:100%;
+	 -ms-text-size-adjust:100%
+}
+FIELDSET {
+	border:none;
+	border-color:transparent;
+}
+*:before, *:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/**********************/
+/**********************/
+@font-face {
+    font-family: 'HelveticaNeueLTStd-LtCn';
+    src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-ltcn6.eot');
+    src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-ltcn6.eot') format('embedded-opentype'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-ltcn6.woff') format('woff'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-ltcn6.ttf') format('truetype'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-ltcn6.svg#HelveticaNeueLTStd-LtCn') format('svg');
+}
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Cn';
+	src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-cn.eot');
+	src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-cn.eot?#iefix') format('embedded-opentype'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-cn.woff') format('woff'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-cn.ttf') format('truetype'),
+		 url('/trueosklenrivanovo/ fonts/helveticaneueltstd-cn.svg#HelveticaNeueLTStd-Cn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'HelveticaNeueLTStd-BdCn';
+	src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-bdcn.eot');
+	src: url('/trueosklenrivanovo/ fonts/helveticaneueltstd-bdcn.eot?#iefix') format('embedded-opentype'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-bdcn.woff') format('woff'),
+         url('/trueosklenrivanovo/ fonts/helveticaneueltstd-bdcn.ttf') format('truetype'),
+		 url('/trueosklenrivanovo/ fonts/helveticaneueltstd-bdcn.svg#HelveticaNeueLTStd-BdCn') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/******************/
+/******************/
+/**********************/
+#main {
+	width:100%;
+	height:auto;
+	min-width:960px;
+	min-height:100%;
+}
+#principal {
+	width:960px;
+	height:auto;
+	min-height:100%;
+	position:relative;
+	margin:0 auto;
+	background-color:#FFF;
+}
+/********************************/
+#seta-top{
+	width:49px;
+	height:37px;
+	position:absolute;
+	right:30px;
+	top:30px;
+	z-index:9999;
+	display:none;
+}
+#seta-top.interno{
+	display:block;
+}
+#seta-top2{
+	width:49px;
+	height:37px;
+	position:fixed;
+	background-image: url(/trueosklenrivanovo/images/topo.png);
+	cursor:pointer;
+}
+#seta-top.interno #seta-top2{
+	position:absolute !important;
+}
+/*******************************************/
+/********************************/
+/* HEADER */
+#header {
+	width:960px;
+	height:auto;
+	position:relative;
+	float:left;
+}
+/********/
+#top-barra {
+	width:960px;
+	height:25px;
+	position:relative;
+	float:left;
+	background-color:#1D1D1B;
+}
+/********/
+#top-icon {
+	width:22px;
+	height:15px;
+	position:relative;
+	float:left;
+	margin:3px 37px 0px 27px;
+	background-image: url(/trueosklenrivanovo/images/osklen-icon.svg);
+}
+/********/
+#menu {
+	width:874px;
+	height:25px;
+	position:relative;
+	float:left;
+}
+#menu UL {
+	list-style-type:none;
+}
+.classMac #menu UL {
+	margin-top:2px;
+}
+#menu UL LI {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#A5925A;
+	font-size:9px;
+	font-weight:normal;
+	text-transform:uppercase;
+	display:inline-block;
+	line-height:15px;
+	margin-top:5px;
+	letter-spacing:2px;
+}
+#menu UL LI A {
+	cursor:pointer;
+}
+#menu ul li::after {
+	 content: "|";
+	 margin: 0 20px;
+	 color:#AE9754;
+	 font-size:10px;
+}
+#menu ul li:last-child::after {
+	 display: none;
+}
+#menu UL LI:hover {
+	color:#D6C389;
+}
+/********/
+
+#timeline {
+	width:960px;
+	text-align:center;
+	margin: 20px 0 0 0;
+}
+
+#timeline UL {
+    width:960px;
+    list-style:none;
+    padding:0;
+    margin:0 auto;
+}
+#timeline LI {
+	float:left;
+}
+
+#timeline UL LI A {
+	cursor:pointer;
+}
+
+
+/********/
+#top {
+	width:960px;
+	height:auto;
+	position:relative;
+	float:left;
+}
+#top-left {
+	width:466px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin-top:96px;
+}
+#top-right {
+	width:419px;
+	height:325px;
+	position:relative;
+	float:right;
+	margin-top:100px;
+	margin-right:46px;
+}
+/********/
+#logo {
+	width:419px;
+	height:325px;
+	position:relative;
+	float:right;
+}
+#logo H1 A {
+	text-indent:-1500px;
+	width:419px;
+	height:325px;
+	float:left;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-image: url(/trueosklenrivanovo/images/true-osklen-riva.gif);
+	cursor:default;
+}
+/*******************************************/
+/********************************/
+/* CONTENT */
+#content, #content_block {
+	width:960px;
+	position:relative;
+	float:left;
+}
+/*******************************************/
+/********************************/
+/* SLIDER TENIS */
+#bloco-tenis {
+	width:960px;
+	height:522px;
+	position:relative;
+	float:left;
+	margin-top:10px;
+	padding-bottom: 20px;
+}
+#bloco-tenis A.disabled {
+	display:none;	
+}
+#tns-seta-left, #tns-seta-right {
+	width:17px;
+	height:49px;
+	position:absolute;
+	top:200px; /*130px;*/
+	background-repeat:no-repeat;
+	background-position:center;
+	z-index:9000;
+	cursor:pointer;
+}
+#tns-seta-left {
+	left:40px;
+	background-image: url(/trueosklenrivanovo/images/st-left.png);
+}
+#tns-seta-right {
+	right:40px;
+	background-image: url(/trueosklenrivanovo/images/st-right.png);
+}
+/****************/
+#tns-esgotado {
+	width:498px;
+	height:auto;
+	position:absolute;
+	z-index:8000;
+	right:90px;
+	top:60px;/*30px;*/
+	clear:both;
+	background-image: url(/trueosklenrivanovo/images/esgotado.png);
+	background-repeat:no-repeat;
+}
+#tns-esgotado-btn {
+	width:498px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin-left:230px;
+	margin-top:70px;
+	height:20px; /*LEO*/
+}
+#tns-esgotado-btn BUTTON {
+	height:auto;
+	padding:5px 15px;
+	border:none;
+	border-color:transparent;
+	background-color:#EEEADF;
+	background-image: url(/trueosklenrivanovo/images/fundo-botoes.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	/**/
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:17px;
+	white-space:nowrap;
+}
+.classMac #tns-esgotado-btn BUTTON {
+	padding-top:8px;
+}
+#tns-esgotado-btn BUTTON SPAN {
+	width:22px;
+	line-height:20px;
+	display:inline-block;
+	background-image: url(/trueosklenrivanovo/images/refresh.svg);
+	background-repeat:no-repeat;
+	margin-right:4px;
+}
+/**********/
+#tns-esgotado-layer {
+	width:580px;
+	height:auto;
+	position:absolute;
+	z-index:7999;
+	right:90px;
+	top:130px;
+	clear:both;
+	background-image: url(/trueosklenrivanovo/images/fundo_form_80.png);
+	border:1px solid #DFD6BB;
+	display:none;
+}
+#tns-esg-int {
+	width:580px;
+	height:auto;
+	position:relative;
+	float:left;
+}
+#tns-esg-int-form {
+	width:530px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin:40px 0px 40px 27px;
+}
+#tns-esg-int-form FIELDSET{
+	border:none;
+}
+#tns-esg-int-form INPUT[type=text] {
+	display:block;
+	position:relative;
+	float:left;
+	width:450px;
+	height:20px;
+	padding-left:10px;
+	border:none;
+	border-color:transparent;
+	background-color:#EEEADF;
+	/**/	
+	font-family: Arial, Verdana, Geneva, sans-serif;
+	font-size:12px;
+	color:#666;
+	line-height:20px;
+}
+#tns-esg-int-form INPUT[type=checkbox] {
+	display:block;
+	position:relative;
+	float:left;
+	height:20px;
+	margin-right:3px;
+}
+#tns-esg-int-form-line {
+	width:100%;
+	position:relative;
+	float:left;
+	padding-bottom:10px;
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	font-size:13px;
+	color:#000;
+	line-height:20px;
+	text-transform:uppercase;
+}
+#tns-esg-int-form label {
+	line-height:20px;
+	width:50px;
+	display:block;
+	position:relative;
+	float:left;
+}
+#tns-esg-int-form SPAN {
+	display:block;
+	width:18px;
+	position:relative;
+	float:left;
+	margin-right:15px;
+}
+#tns-esg-int-form SPAN.letrau {
+	width:auto;
+	margin-right:10px;
+}
+#tns-esg-int-form INPUT[type=submit] {
+	height:auto;
+	padding:5px 15px;
+	border:none;
+	border-color:transparent;
+	background-color:#EEEADF;
+	/**/
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:14px;
+	white-space:nowrap;
+	text-transform:uppercase;
+}
+/****************/
+#tenis-top {
+	width:960px;
+	height:44px;
+	position:relative;
+	float:left;
+	padding-top:45px;
+}
+#tenis-top H5 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#A5925A;
+	font-size:27px;
+	font-weight:normal;
+	line-height:normal;
+	text-transform:uppercase;
+	margin-left:40px;
+	padding-left:42px;
+	vertical-align:text-bottom;
+}
+.classMac #tenis-top H5 {
+	margin-top:5px;
+}
+#tenis-top H5.icon {
+	background-image: url(/trueosklenrivanovo/images/osklen-icon.svg);
+	background-repeat:no-repeat;
+	background-position:10px center;
+}
+.classMac #tenis-top H5.icon {
+	background-position:10px 10%;
+}
+#tenis-top SPAN {
+	color:#000;
+}
+/**************/
+#tenis-mask {
+	width:960px;
+	height:380px; /*336px;*/
+	position:relative;
+	float:left;
+	overflow:hidden;
+}
+#tenis-tira {
+	width:20000em;
+	height:380px; /*336px;*/
+	position:absolute;
+	clear:both;
+	white-space:nowrap;
+}
+#tenis-foto {
+	width:960px;
+	height:380px; /*336px;*/
+	position:relative;
+	float:left;
+	overflow:hidden;
+}
+/**************/
+#tenis-bottom {
+	width:960px;
+	height:auto;
+	max-height:122px;
+	min-height:40px;
+	position:relative;
+	float:left;
+	overflow:hidden;
+}
+#tenis-texto {
+	width:380px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin-left:22px;
+	padding-left:60px;
+}
+#tenis-texto.e-fabrics {
+	background-repeat:no-repeat;
+	background-image: url(/trueosklenrivanovo/images/e-fabrics.png);
+}
+#tenis-texto P{
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+}
+#tenis-bottom UL {
+	width:400px;
+	height:auto;
+	position:absolute;
+	display:block;
+	bottom:0px;
+	right:70px;
+	list-style-type:none;
+}
+.esgotado UL {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+}
+#tenis-bottom LI {
+	float:left;
+	height:20px;
+	background-color:#EEEADF;
+	background-image: url(/trueosklenrivanovo/images/fundo-botoes.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding:7px 12px;
+	cursor:pointer;
+}
+#tenis-bottom LI A {
+	display:block;
+	height:20px;
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:17px;
+	line-height:20px;
+}
+.classMac #tenis-bottom LI A {
+	margin-top:3px;
+}
+.esgotado LI.tns-bt-comprar A {
+	color:#AFACA2 !important;
+}
+#tenis-bottom LI.tns-bt-compart A {
+	color:#000; /*#AFACA2;*/
+}
+#tenis-bottom LI.tns-bt-insta A {
+	font-size:14px;
+	color:#000; /*#AFACA2;*/
+}
+#tenis-bottom LI A::before {
+	content: " ";
+	padding-right:17px;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.classMac #tenis-bottom LI A::before {
+	background-position:left 10%;
+}
+#tenis-bottom LI.tns-bt-comprar A::before {
+	padding-right:24px;
+	background-image: url(/trueosklenrivanovo/images/cart.svg);
+}
+.esgotado LI.tns-bt-comprar A::before {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+}
+#tenis-bottom LI.tns-bt-compart A::before {
+	background-image: url(/trueosklenrivanovo/images/facebook.svg);
+}
+#tenis-bottom LI.tns-bt-insta A::before {
+	background-image: url(/trueosklenrivanovo/images/insta.svg);
+}
+/**********************/
+/* HISTÓRIA */
+#content_block.historia {
+	margin-top:30px; /*81px;*/
+}
+.i2005titulo H2 {
+	font-family:'HelveticaNeueLTStd-BdCn', Helvetica, Arial, sans-serif;
+	color:#DFD6BB;
+	font-size:225px;
+	line-height:225px;
+	font-weight:normal;
+	vertical-align:top;
+	float:right;
+	margin-right:40px;
+}
+.i2005titulo H3 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:42px;
+	line-height:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding-left:42px;
+	margin-bottom:13px;
+	margin-left:33px;
+	/**/
+	background-image: url(/trueosklenrivanovo/images/osklen-icon2.svg);
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+.classMac .i2005titulo H3 {
+	background-position:left 30%;
+}
+.i2005titulo P {
+	width:390px;
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+	padding-left:42px;
+	margin-left:33px;
+}
+/*****/
+#hist_det_left {
+	width:353px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin:90px 0px 0px 80px;
+}
+#hist_det_left H3 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:42px;
+	line-height:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+#hist_det_left H3 SPAN {
+	color:#DFD6BB;
+}
+#hist_det_left P {
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+}
+#hist_det_right {
+	width:410px;
+	height:auto;
+	position:relative;
+	float:left;
+	margin:90px 0px 0px 57px;
+}
+/**********************/
+/**********************/
+/* ANOS */
+#riva-anos {
+	width:960px;
+	height:auto;
+	position:relative;
+	float:left;
+}
+/**********************/
+/* TITULOS */
+.bloco-ano {
+	margin-top:40px;
+	/*
+	height:362px !important;
+	background-repeat:repeat-x;
+	padding-top:200px;*/
+}
+.bloco-ano H2 {
+	float:left;
+	position:relative;
+	background-position:center center;
+	width:960px;
+	height:560px;
+	text-indent:-1500px;
+	overflow:hidden;
+}/*
+.bloco-ano H2 {
+	font-family:'HelveticaNeueLTStd-BdCn', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	font-size:270px;
+	line-height:270px;
+	font-weight:normal;
+	vertical-align:top;
+	float:right;
+	margin-right:40px;
+}*/
+.ano-right H2 {
+	float:right;
+}
+.ano-left H2 {
+	float:left;
+	padding-left:25px;
+}
+.bloco-ano H3 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#A5925A;
+	font-size:42px;
+	line-height:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding-top:15px;
+	margin-left:33px;
+	/**/
+	background-image: url(/trueosklenrivanovo/images/osklen-icon.svg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+.ano-left H3 {
+	margin-left:585px;
+}
+.bloco-ano UL {
+	list-style-type:none;
+}
+.ano-left UL {
+	margin-left:585px;
+}
+.bloco-ano LI {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	font-size:26px;
+	line-height:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-left:33px;
+}
+.ano-left LI {
+	margin-left:0px !important;
+}
+.bloco-ano P {
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#BCBEC0;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+	margin-left:33px;
+	width:400px;
+	padding-top:10px;
+}
+.ano-left P {
+	margin-left:585px;
+	width:300px;
+}
+/*******************************************/
+/********************************/
+.i2006titulo {
+	background-image: url(/trueosklenrivanovo/images/fundo-2006.png);
+	background-position:-142px center;
+}
+/*****/
+.i2007titulo {
+	background-image: url(/trueosklenrivanovo/images/fundo-2007.jpg);
+}
+/*****/
+.i2009titulo {
+	background-image: url(/trueosklenrivanovo/images/fundo-2009.png);
+	background-repeat:repeat-x !important;
+	padding-top:140px !important;
+	height:422px !important;
+}
+.i2009titulo H2 {
+	color:#DFD5BB !important;
+}
+.i2009titulo LI {
+	color:#C8C8C7 !important;
+}
+.i2009titulo P {
+	color:#000 !important;
+}
+/*****/
+.i2014titulo {
+	background-image: url(/trueosklenrivanovo/images/fundo-2014.jpg);
+	background-repeat:repeat-x !important;
+	padding-top:140px !important;
+	height:422px !important;
+}
+/*******************************************/
+/**********************/
+/* INSTAGRAM */
+#riva-insta {
+	width:960px;
+	height:560px;
+	position:relative;
+	float:left;
+}
+#riva-insta-top {
+	width:921px;
+	height:52px;
+	position:relative;
+	float:left;
+	margin-top:12px;
+	padding-left:37px;
+	padding-top:20px;
+}
+#riva-insta-top H3 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#DAD5C0;
+	font-size:27px;
+	line-height:normal;
+	font-weight:normal;
+	/**/
+	padding-left:35px;
+	background-image: url(/trueosklenrivanovo/images/insta-gr.svg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+#riva-insta-top H3 SPAN {
+	color:#58595B;
+}
+/****/
+#riva-insta-cont {
+	width:896px;
+	height:440px;
+	position:relative;
+	float:left;
+	margin-left:37px;
+	overflow:hidden;
+}
+#insta-loading {
+	width:100%;
+	height:100%;
+	position:relative;
+	background-image: url(/trueosklenrivanovo/images/loading.gif);
+	background-repeat:no-repeat;
+	background-position:center center;
+}
+#insta-thumb {
+	width:103px;
+	height:103px;
+	position:relative;
+	float:left;
+	margin:0px 7px 7px 0px;
+	background-color:#706E6D;
+	cursor:pointer;
+	border:1px solid #EFEBDD;
+}
+#insta-thumb:hover {
+	border:1px solid #DBD3B8;
+}
+/*************/
+#insta-layer {
+	width:960px;
+	height:560px;
+	position:absolute;
+	clear:both;
+	top:0px;
+	left:0px;
+	background-image: url(/trueosklenrivanovo/images/fundo_insta_40.png);
+	z-index:6000;
+	display:none;
+}
+/****/
+#insta-middle {
+	width:663px;
+	height:440px;
+	position:absolute;
+	clear:both;
+	top:84px;
+	left:149px;
+	z-index:6010;
+	display:none;
+}
+#insta-foto {
+	width:440px;
+	height:440px;
+	position:relative;
+	float:left;
+}
+#insta-text {
+	width:223px;
+	height:440px;
+	position:relative;
+	float:left;
+	background-color:#1D1D1B;
+	overflow:hidden;
+}
+#insta-text H5{
+	font-family:'HelveticaNeueLTStd-BdCn', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	font-size:12px;
+	line-height:normal;
+	font-weight:normal;
+	margin:20px 0px 15px 21px;
+}
+#insta-text P{
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+	margin-left:21px;
+	width:176px;
+}
+#insta-link {
+	width:195px;
+	margin:20px 0px 0px 21px;
+}
+#insta-link UL{
+	list-style-type:none;
+}
+#insta-link LI{
+	font-family:Helvetica, Arial, sans-serif;
+	color:#DDD;
+	font-size:12px;
+	line-height:normal;
+	font-weight:normal;
+	/***/
+	display:inline-block;
+	padding:3px 0px 3px 17px;
+	margin-right:5px;
+	background-repeat:no-repeat;
+	background-position:left center;
+}
+#insta-link LI.like{
+	background-image: url(/trueosklenrivanovo/images/like.svg);
+}
+#insta-link LI.comm{
+	background-image: url(/trueosklenrivanovo/images/comments.svg);
+}
+#insta-text BUTTON {
+	position:absolute;
+	bottom:0px;
+	width:100%;
+	height:auto;
+	padding:5px 15px 5px 21px;
+	border:none;
+	border-color:transparent;
+	background-color:#E2DCC7;
+	background-image: url(/trueosklenrivanovo/images/fundo-botoes2.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	cursor:pointer;
+	/**/
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:17px;
+	white-space:nowrap;
+	text-align:left;
+}
+.classMac #insta-text BUTTON {
+	padding-top:8px;
+}
+#insta-text BUTTON SPAN {
+	width:5px;
+	line-height:17px;
+	display:inline-block;
+	background-image: url(/trueosklenrivanovo/images/setinha.svg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	margin-right:4px;
+}
+/*******************************************/
+/********************************/
+/* FOOTER */
+#footer {
+	width:960px;
+	height:25px;
+	position:relative;
+	float:left;
+	background-color:#1D1D1B;
+	background-image: url(/trueosklenrivanovo/images/osklen-icon.svg);
+	background-repeat:no-repeat;
+	background-position:center 4px;
+}
+/******************************************************/
+/********************************/
+/* DENUNCIE */
+#top.topo-interno {
+	height:530px;
+	background-image: url(/trueosklenrivanovo/images/tenis-int.jpg);
+	background-repeat:no-repeat;
+	background-position:left 126px;
+}
+/********/
+#logo-int {
+	width:499px;
+	height:36px;
+	position:relative;
+	float:left;
+	margin-left:32px;
+	margin-top:39px;
+}
+#logo-int H1 A {
+	text-indent:-1500px;
+	width:499px;
+	height:36px;
+	float:left;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-image: url(/trueosklenrivanovo/images/titulo_int.gif);
+	cursor:default;
+}
+/********/
+#top-int {
+	width:450px;
+	height:388px;
+	position:relative;
+	float:left;
+	margin-left:504px;
+	margin-top:38px;
+}
+#top-int H2 {
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#DFD6BB;
+	font-size:26px;
+	line-height:normal;
+	font-weight:normal;
+	text-transform:uppercase;
+	margin-bottom:13px;
+}
+#top-int H2 SPAN {
+	color:#000;
+}
+#top-int P {
+	width:400px;
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:14px;
+	line-height:17px;
+	font-weight:normal;
+}
+#top-int UL {
+	width:450px;
+	height:auto;
+	position:absolute;
+	display:block;
+	bottom:0px;
+	left:0px;
+	list-style-type:none;
+}
+#top-int LI {
+	float:left;
+	height:20px;
+	background-color:#EEEADF;
+	background-image: url(/trueosklenrivanovo/images/fundo-botoes.png);
+	background-repeat:no-repeat;
+	background-position:right center;
+	padding:7px 12px;
+	cursor:pointer;
+	text-transform:uppercase;
+}
+#top-int LI A {
+	display:block;
+	height:20px;
+	font-family:'HelveticaNeueLTStd-LtCn', Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:17px;
+	line-height:20px;
+}
+.classMac #top-int LI A {
+	margin-top:3px;
+}
+/********/
+#manifesto {
+	width:918px;
+	height:auto;
+	position:relative;
+	float:left;
+	padding:35px 0px;
+	background-color:#000;
+	border-left: 1px solid #111;
+	border-right: 1px solid #111;
+	padding-right:40px;
+	display:none;
+}
+#manifesto H2{
+	font-family:'HelveticaNeueLTStd-BdCn', Helvetica, Arial, sans-serif;
+	color:#CCC;
+	font-size:36px;
+	line-height:normal;
+	font-weight:normal;
+	padding-left:50px;
+	margin-bottom:30px;
+	text-transform:uppercase;
+}
+#manifesto P{
+	font-family:'HelveticaNeueLTStd-Cn', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	font-size:16px;
+	line-height:17px;
+	font-weight:normal;
+	padding-left:105px;
+	margin-bottom:20px;
+}
+#manifesto P.lista {
+	color:#FFF;
+	margin: 0 0 5px 0 !important;
+}
+/********/
+#multi {
+	width:890px;
+	height:auto;
+	position: relative;
+	float:left;
+	border-top: #a3915b solid 7px;
+	border-bottom: #a3915b solid 7px;
+	background: #FFF;
+	padding:25px 0px 25px 70px;
+	font-family: 'HelveticaNeueLTStd-Cn', Arial, Helvetica, sans-serif;
+	color: #AAA;
+	display:none;
+}
+#multi_coluna {
+	width: 280px;
+	float: left;
+	font-family: 'HelveticaNeueLTStd-Cn', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #AAA;
+}
+#multi_coluna p {
+	margin: 0 0 10px 0;
+}
+#multi_coluna strong {
+	color: #000000;
+	font-family: 'HelveticaNeueLTStd-Cn', Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
