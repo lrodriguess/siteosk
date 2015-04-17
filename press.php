@@ -246,17 +246,27 @@ jQuery(document).ready(function() {
         <div id="content_its_sld_tx" class="bk_gray it_tx_263 releaseBox pd_15p" style="width:305px;">
           <h1>Contatos / Contacts:</h1>
           <br>
-          <p class="place">São Paulo - <a href="mailto:violeta@osklen.com.br">mirella.whiteman@osklen.com.br</a></p>
-          <p class="place">Rio de Janeiro - <a href="mailto:cristina@palavraonline.com">cristina@palavraonline.com</a></p>
-          <p class="place">Estados Unidos (USA) - <a href="mailto:megan@maguiresteele.com">megan@maguiresteele.com</a></p>
-          <p class="place">Japão (日本) - <a href="mailto:miki_nagai@hpgrp.com">miki_nagai@hpgrp.com</a></p>
-          <p class="place">France - <a href="mailto:igor@bmcs.fr">igor@bmcs.fr</a></p>
-          <p class="place">Argentina - <a href="mailto:astrid@think-argentina.com.ar">astrid@think-argentina.com.ar</a></p>
-          <p class="place">Portugal - <a href="mailto:cf@global-press.com">cf@global-press.com</a></p>
+          
+          <p class="place">Main Communications Office <br /> <a href="press@osklen.com.br">press@osklen.com.br</a><br /></p>
+          <p class="place">Japan (日本) <br /> <a href="miki_nagai@hpgrp.com">miki_nagai@hpgrp.com</a></p>
+          <p class="place">Argentina <br /> <a href="astrid@think-argentina.com.ar">astrid@think-argentina.com.ar</a></p>
+          
         </div>
       </div>
       <div id="content_its_txt"></div>
     </div>
+
+    
+<!--
+<p class="place">São Paulo - <a href="mailto:violeta@osklen.com.br">mirella.whiteman@osklen.com.br</a></p>
+<p class="place">Rio de Janeiro - <a href="mailto:cristina@palavraonline.com">cristina@palavraonline.com</a></p>
+<p class="place">Estados Unidos (USA) - <a href="mailto:megan@maguiresteele.com">megan@maguiresteele.com</a></p>
+<p class="place">Japão (日本) - <a href="mailto:miki_nagai@hpgrp.com">miki_nagai@hpgrp.com</a></p>
+<p class="place">France - <a href="mailto:igor@bmcs.fr">igor@bmcs.fr</a></p>
+<p class="place">Argentina - <a href="mailto:astrid@think-argentina.com.ar">astrid@think-argentina.com.ar</a></p>
+<p class="place">Portugal - <a href="mailto:cf@global-press.com">cf@global-press.com</a></p>
+-->
+
     <!-- --> 
     <!-- -->
     
