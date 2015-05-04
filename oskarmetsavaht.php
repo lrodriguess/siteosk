@@ -56,7 +56,7 @@ $paginaAtual = 'OSKAR METSAVAHT';
 <?php $videocod = "54972894"; $videotit = "The Creators Project"; include "video.php"; ?>
 <?php $videocod = "54972136"; $videotit = "Manisfesto A21"; include "video.php"; ?>
 <?php $videocod = "54969857"; $videotit = "Absolut Rio"; include "video.php"; ?>
-<?php $videocod = "54971173"; $videotit = "Making of Absolut Rio"; include "video.php"; ?>
+<?php //$videocod = "54971173"; $videotit = "Making of Absolut Rio"; include "video.php"; ?>
 <?php $videocod = "54967249"; $videotit = "Making of Editorial Elle"; include "video.php"; ?>
 <?php $videocod = "46437287"; $videotit = "Ipanema by Oskar Metsavaht"; include "video.php"; ?>
 
