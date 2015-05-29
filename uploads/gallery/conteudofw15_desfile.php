@@ -1,7 +1,7 @@
 <?php 
 
 
-$titulo = "OSKLEN F/W 15 SPFW";
+$titulo = "F/W 15 SPFW";
 $titulo_en = $titulo;
 
 $galeriapasta = "fw15_desfile";

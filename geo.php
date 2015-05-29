@@ -44,5 +44,7 @@ if (!empty($locations) && is_array($locations)) {
 if ($onde == "JP") { 
 	header('Location: http://osklen.com/index_jp.php'); exit; 
 } else if ($onde != "BR") { 
+	if ($onde != "AR") {
 	header('Location: http://osklen.com/site_en.php'); exit; 
+	}
 }

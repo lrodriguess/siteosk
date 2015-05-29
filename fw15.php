@@ -52,6 +52,10 @@ $(document).ready(function(){
   
    
 <?php $videocod = "123674214"; $videotit = "OSKLEN F/W 15 SPFW"; include "video.php"; // VIDEO F/W 15 ?>
+
+<?php include "uploads/gallery/conteudofw15_lookbook_fem_pt.php"; include "fotos.php"; // FOTOS LOOKBOOK FW/15 ?> 
+<?php include "uploads/gallery/conteudofw15_lookbook_masc_pt.php"; include "fotos.php"; // FOTOS LOOKBOOK FW/15 ?>   
+
 <?php include "uploads/gallery/conteudofw15_desfile.php"; include "fotos.php"; // FOTOS DESFILE FW/15 ?>
 <?php include "uploads/gallery/conteudofw15_campanha.php"; include "fotos.php"; // FOTOS CAMPANHA FW/15 ?>    
     

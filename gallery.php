@@ -24,7 +24,7 @@ if($id == '') {
 <head>
 <meta charset="UTF-8">
 <meta property="og:image" content="http://osklen.com/wp-content/uploads/2013/itm/fem/lb_itm_f_01.jpg">
-<title>Osklen lookbook s|s 14 Collection</title>
+<title>Osklen <?=$titulo?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="stylesheet" href="http://osklen.com/js/galleria.fullscreen.css" id="galleria-theme">
 <link rel="stylesheet" type="text/css" media="all" href="http://osklen.com/style.css">

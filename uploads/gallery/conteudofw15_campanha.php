@@ -1,7 +1,7 @@
 <?php 
 
 
-$titulo = "OSKLEN F/W 15";
+$titulo = "F/W 15";
 $titulo_en = $titulo;
 
 $galeriapasta = "fw15_campanha";
