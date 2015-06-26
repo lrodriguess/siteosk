@@ -612,33 +612,6 @@ $tenisArray = array(
 		'ano' => '2015',
 		'modelos' => array(
 		
-		
-			array(
-				'exibir' => true,
-				'id' => 7,
-				'nome' => 'RIVA <span>HOLOGRÁFICO</span>',
-				'descricao' => 'No inverno 2015, a Osklen apresenta coleção inspirada em um casal Globetrotter e  desenvolve o Riva tom bronze com beneficiamento holográfico, representando as capitais urbanas. Forro e palmilha de couro e solado com design exclusivo Osklen. Confira todas as edições desse clássico Osklen em trueosklenriva.com.br.',
-				'link_compra' => 'http://store.osklen.com/tenis-riva-holografico.html',
-				'link_compart' => 'http://store.osklen.com/tenis-riva-holografico.html',
-				'disponivel' => true,
-				'tipo' => 'F',
-				'ref' => '45282',
-				'fotos' => array('00_Riva_holografico'),
-			),
-			
-				array(
-				'exibir' => true,
-				'id' => 8,
-				'nome' => 'RIVA <span>PELO PB</span>',
-				'descricao' => 'O Riva Pelo PB traz uma nova versão animal print desenvolvida em couro com  textura de pelos. O modelo é unissex, com numeração de 33 a 46, <br> e tem forro e palmilha de couro, e solado personalizado com design exclusivo Osklen.',
-				'link_compra' => 'http://store.osklen.com/shoes/tenis-riva-pelo-pb-masc.html',
-				'link_compart' => 'http://store.osklen.com/shoes/tenis-riva-pelo-pb-masc.html',
-				'disponivel' => true,
-				'tipo' => 'M',
-				'ref' => '43713',
-				'fotos' => array('00_Riva_pelo_pb_masc'),
-			),
-		
 		array(
 				'exibir' => true,
 				'id' => 1,

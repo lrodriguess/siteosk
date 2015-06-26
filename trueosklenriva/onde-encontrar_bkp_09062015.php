@@ -136,6 +136,7 @@ function abremulti() {
           FEIRA DE SANTANA - ARANÃS<br>
           FEIRA DE SANTANA - NOMAD<br>
           GUANAMBI - ATRATIVA<br>
+          ILHÓIS MEN´S WEAR - ILHÉUS<br />
           IPIRA - CASA SAO FRANCISCO<br>
           ITABUNA - LOOK MULTIMARCAS<br>
           JACOBINA - MODERN HOUSE<br>
@@ -490,7 +491,6 @@ function abremulti() {
           BRODOWSKI - TOK FINAL<br>
           BROTAS - ARTE &amp; MANHA<br>
           CAPIVARI - VERA SARCINELLA<br>
-          CAMPINAS - PRIME<br>
           CATANDUVA - ATRIUM<br>
           CORDEIROPOLIS - PACTO MODA MASCULINA<br>
           CRUZEIRO - DÉCIMA QUINTA<br>

@@ -10,6 +10,7 @@
 <link rel="icon" type="image/png" href="img/favicon.png">
 <link rel="stylesheet" type="text/css" media="all" href="style.css" />
 <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+<!-- pos-clique dinamize --><script type="text/javascript" src="js/TRACK_105.js"></script><!-- pos-clique dinamize -->
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
