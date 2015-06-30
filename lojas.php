@@ -4,6 +4,7 @@ $paginaAtual = 'Lojas';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<?php include 'zendesk.php'; ?>
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="I3ws5YHcOuWHfg7znDQIF_PuuRhtgIHc6zWRak89Io8">
 <?php include 'meta.php'; ?>
@@ -16,6 +17,7 @@ $paginaAtual = 'Lojas';
 <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
 <script type="text/javascript" src="js/classic/galleria.classic.js"></script>
 <script type="text/javascript" src="js/inicio.js"></script>
+
 <script type="text/javascript">
 $(document).ready(function(){	
 	size = $('#content').width();
@@ -208,7 +210,6 @@ function googlemap() {
 	}
 }	
 </script> 
-<?php include 'zendesk.php'; ?>
 </head>
 
 <body>
