@@ -6,12 +6,7 @@ $paginaAtual = 'Lojas';
 <head>
 <meta charset="UTF-8">
 <meta name="google-site-verification" content="I3ws5YHcOuWHfg7znDQIF_PuuRhtgIHc6zWRak89Io8">
-<meta name="description" content="ENDLESS SUMMER S|S 2013 COLLECTION">
-<meta name="site_name" content="Osklen">
-<meta name="title" content="Osklen">
-<meta name="image" content="http://osklen.com/wp-content/themes/osklen/img/facebook_tab_ES_thumb.jpg">
-<meta name="keywords" content="Desfiles, Lookbooks, Coleções, Filmes, Fotos, Lojas">
-<meta name="author" content="Manager: Leonardo Rodrigues, Developers: Marcos Loureiro, Designers: Rafael Simoens">
+<?php include 'meta.php'; ?>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Osklen -<?php echo $paginaAtual;?></title>
 <link rel="icon" type="image/png" href="http://osklen.com/wp-content/themes/osklen/img/favicon.png">
