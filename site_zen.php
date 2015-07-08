@@ -28,26 +28,30 @@ $(document).ready(function(){
 <?php include 'zendesk.php'; ?>
 <?php include 'geo.php'; ?>
 
+<style>
 
+#wraper { background-color:rgba(0, 0, 0, 0.85); width:100%; height:100%; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto; z-index: 99 !important; }
+#antecipe { width:414px; height:414px; position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: 200px auto auto auto; background:url(http://d1rkg9ks3dlpsw.cloudfront.net/progressiva2606/banner_pop_in.jpg); }
+
+
+</style>
 
 </head>
 
 <body>
-<?php /*
+
+
 <script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11667320-11']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+jQuery(document).ready(function() {
+	jQuery("#wraper").click(function() {
+		document.getElementById("wraper").setAttribute("style","display:none;");
+	});
+});
+	
 </script>
-*/ ?>
+
+<div id="wraper"><div id="antecipe"><img src="http://d1rkg9ks3dlpsw.cloudfront.net/blank.png" width="414" height="414" style="margin:35px 0 0 0;" border=0 /></div></div>
+
 
 <div id="main">
   <?php include "header_menu_zen.php"; ?>

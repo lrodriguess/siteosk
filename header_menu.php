@@ -65,7 +65,8 @@
               <li><a href="http://goo.gl/7lxyKc" target="_blank" title="Neo Community">Neo Community</a></li>
               <li><a href="http://goo.gl/vWFQiq" target="_blank" title="OM.art">OM.art</a></li>
               <li><a href="/press" title="Press">Press</a></li>
-              <li><a href="#" onclick="zE.activate();" title="Contato">Contato</a></li>
+              <li><a href="/contato.php" title="Contato">Contato</a></li>
+              <!--<li><a href="#" onclick="zE.activate();" title="Contato">Contato</a></li>-->
               <li class="cat-store"><a href="http://goo.gl/oq9g8c" target="_blank" title="Osklen Store"><span>osklen</span> store</a></li>
           <?php } ?>
           

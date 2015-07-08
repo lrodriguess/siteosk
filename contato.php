@@ -39,6 +39,7 @@ $(document).ready(function() {
 	});			
 });
 </script>
+<?php include 'zendesk.php'; ?>
 </head>
 
 <body>
@@ -49,12 +50,13 @@ $(document).ready(function() {
     <div id="content_its" class="it_cont it_t_263" style="width:308px;">
       <div id="content_its_sld">
         <ul class="formmenu">
-          <a href="mailto:online@osklen.com.br?subject=Osklen Fale Conosco&amp;body= Por favor, preencha os campos abaixo. %0A%0A Nome: %0A E-mail: %0A CPF: %0A Cidade/UF: %0A Mensagem: %0A%0A" .utf8_encode($row[7]).""="">
+          <!--<a href="mailto:online@osklen.com.br?subject=Osklen Fale Conosco&amp;body= Por favor, preencha os campos abaixo. %0A%0A Nome: %0A E-mail: %0A CPF: %0A Cidade/UF: %0A Mensagem: %0A%0A" .utf8_encode($row[7]).""="">-->
+          <a href="#" onclick="zE.activate();" title="Contato">
           <li rel="fale-conosco" class="">
             <h4>Fale Conosco</h4>
             <p>envie sua dúvida, sugestão ou reclamação para online@osklen.com.br</p>
           </li>
-          </a> <a href="mailto:franquias@osklen.com.br?subject=Osklen Fale Conosco&amp;body= Por favor, preencha os campos abaixo. %0A%0A Nome: %0A E-mail: %0A Telefone: %0A Tel Comercial: %0A CPF: %0A Data Nasc.: %0A Cidade/UF: %0A %0A  Ocupação: %0A Experiência: %0A Já teve outra franquia? %0A Já possui empresa? %0A Cidade/UF que gostaria de abrir franquia: %0A  %0A  %0A Se você já tem algum ponto comercial em vista, diga onde esta situado e as características do local: %0A  %0A Se está pensando em sociedade, descreva as principais características de seu sócio em potencial e, se houver, relação de parentesco %0A %0A  Por que tem interesse em abrir uma franquia da Osklen? %0A  %0A Quem irá administrar o negócio? %0A  %0A Diga por que, em sua opinião, uma loja Osklen teria sucesso neste mercado: %0A %0A %0A %0A" .utf8_encode($row[7]).""="">
+          </a> <a href="mailto:franquias@osklen.com.br?subject=Osklen Fale Conosco&amp;body= Por favor, preencha os campos abaixo. %0A%0A Nome: %0A E-mail: %0A Telefone: %0A Tel Comercial: %0A CPF: %0A Data Nasc.: %0A Cidade/UF: %0A %0A  Ocupação: %0A Experiência: %0A Já teve outra franquia? %0A Já possui empresa? %0A Cidade/UF que gostaria de abrir franquia: %0A  %0A  %0A Se você já tem algum ponto comercial em vista, diga onde esta situado e as características do local: %0A  %0A Se está pensando em sociedade, descreva as principais características de seu sócio em potencial e, se houver, relação de parentesco %0A %0A  Por que tem interesse em abrir uma franquia da Osklen? %0A  %0A Quem irá administrar o negócio? %0A  %0A Diga por que, em sua opinião, uma loja Osklen teria sucesso neste mercado: %0A %0A %0A %0A" ><!-- .utf8_encode($row[7]).""="" -->
           <li rel="franquias" class="">
             <h4>Franquias</h4>
             <p>seja um franqueado Osklen<br />Clique aqui para enviar sua ficha</p>
